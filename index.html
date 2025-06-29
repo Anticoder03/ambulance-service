@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+      <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <title>Good Health Ambulance - 24/7 Emergency Services</title>
+    <style>
+  @keyframes fadeSlideUp {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-fade-slide-up {
+    animation: fadeSlideUp 1s ease-out forwards;
+  }
+</style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white">
+
+
+  
+<!-- Start Header -->
+
+<nav class="bg-white border-gray-200 dark:bg-gray-900 pb-5">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <span class="self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white">GOOD HEALTH AMBULANCE</span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+     <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 
+  md:flex-row md:space-x-6 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white 
+  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+
+  <!-- Home -->
+  <li>
+    <a href="/" class="block py-2 px-3 text-white bg-blue-700 rounded-sm 
+      md:bg-transparent md:text-blue-700 md:p-0 dark:text-white 
+      md:dark:text-blue-500" aria-current="page">Home</a>
+  </li>
+
+  <!-- About -->
+  <li>
+    <a href="about.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 
+      md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 
+      dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 
+      dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+  </li>
+
+  <!-- Services -->
+  <li>
+    <a href="service.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 
+      md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 
+      dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 
+      dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+  </li>
+
+  <!-- Book Now CTA Button -->
+  <li>
+    <a href="#book-now"
+      class="block md:inline-flex items-center justify-center py-2 px-4 mt-2 md:mt-0 text-white font-semibold 
+      rounded-md bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-4 
+      focus:ring-red-300 dark:focus:ring-red-800 transition-all duration-300 shadow-sm">
+      🚑 Book Now
+    </a>
+  </li>
+
+</ul>
+
+    </div>
+  </div>
+</nav>
+
+<!-- End Header -->
+
+<hr>
+
+
+  <!-- Start Hero -->
+   
+<section class="w-full min-h-screen bg-center bg-cover bg-no-repeat bg-[url('./img/hero-bg.jpg')] bg-gray-700 bg-blend-multiply">
+  <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 flex flex-col justify-center items-center h-full">
+    <h1 class="mb-4 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight leading-none text-white">
+      24/7 Emergency Ambulance Services
+    </h1>
+    <p class="mb-8 text-base md:text-lg lg:text-xl font-normal text-gray-300 sm:px-16 lg:px-48">
+      Rapid response. Trained professionals. Advanced life support. Our ambulances are ready round-the-clock to serve you when every second counts.
+    </p>
+    <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+      <a href="#book-now" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-red-700 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900 transition-all duration-300">
+        Call Now
+        <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+          viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 5h12m0 0L9 1m4 4L9 9" />
+        </svg>
+      </a>
+      <a href="#services" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 transition-all duration-300">
+        View Services
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- End Hero -->
+
+<!-- Start Callback Section -->
+<section class="hero my-10 flex flex-col lg:flex-row items-center justify-around max-w-screen-xl mx-auto p-4 gap-8" id="book-now">
+  <div class="w-full lg:w-1/3 order-2 lg:order-1">
+    <form class="max-w-sm mx-auto border border-gray-200 rounded-lg bg-white p-6 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <h2 class="text-xl font-bold mb-4 text-gray-900 dark:text-white text-center">GET A CALL BACK</h2>
+       
+       
+       <div>
+            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name: </label>
+            <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required />
+        </div>
+      <label for="phone-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number:</label>
+    <div class="relative">
+        <div class="absolute inset-y-0 start-0 top-0 flex items-center ps-3.5 pointer-events-none">
+            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 19 18">
+                <path d="M18 13.446a3.02 3.02 0 0 0-.946-1.985l-1.4-1.4a3.054 3.054 0 0 0-4.218 0l-.7.7a.983.983 0 0 1-1.39 0l-2.1-2.1a.983.983 0 0 1 0-1.389l.7-.7a2.98 2.98 0 0 0 0-4.217l-1.4-1.4a2.824 2.824 0 0 0-4.218 0c-3.619 3.619-3 8.229 1.752 12.979C6.785 16.639 9.45 18 11.912 18a7.175 7.175 0 0 0 5.139-2.325A2.9 2.9 0 0 0 18 13.446Z"/>
+            </svg>
+        </div>
+        <input type="text" id="phone-input" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" 
+" placeholder="123-456-7890" pattern="[6-9][0-9]{9}"
+ required />
+    </div>
+    <div class="my-3">
+      <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Submit</button>
+    </div>
+    </form>
+  </div>
+<div class="relative w-full lg:w-2/3 order-1 lg:order-2 h-[300px] md:h-[400px] rounded-lg shadow-lg overflow-hidden animate-fade-slide-up">
+  <!-- Background Image with blur -->
+  <img src="./img/full-main-bg.jpeg" alt="Hero Image"
+    class="absolute inset-0 w-full h-full object-cover z-0" />
+
+  <!-- Optional dark overlay -->
+  <div class="absolute inset-0 bg-white/50 dark:bg-black/50 z-10"></div>
+
+  <!-- Centered Text on top -->
+  <div class="absolute inset-0 z-20 flex items-center justify-center animate-fade-slide-up">
+    <div class="p-4 md:p-6 rounded-xl text-center shadow-xl">
+      <h1 class="text-2xl md:text-4xl font-bold text-gray-900 dark:text-blue mb-4">Welcome to Our Service</h1>
+      <p class="text-base md:text-lg text-gray-800 dark:text-blue-800">We provide the best solutions for your needs. Contact us today!</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- End Callback Section -->
+
+<!-- Start Services -->
+<section id="services" class="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4 max-w-screen-xl mx-auto">
+  
+  <!-- First Card -->
+  <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-auto">
+    <a href="#">
+      <img class="rounded-t-lg w-full h-48 object-cover" src="./img/ambulance-card.jpg" alt="Ambulance Service" />
+    </a>
+    <div class="p-5">
+      <a href="#">
+        <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          24/7 Emergency Ambulance Service
+        </h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        Fast, reliable, and well-equipped ambulance services available round the clock. Your safety is our priority — call us anytime!
+      </p>
+      <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        Book Now
+        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Second Card -->
+  <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-auto">
+    <a href="#">
+      <img class="rounded-t-lg w-full h-48 object-contain bg-blue-400" src="./img/ambulance-card2.webp" alt="Ambulance Service" />
+    </a>
+    <div class="p-5">
+      <a href="#">
+        <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          Quick Response Medical Team
+        </h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        Our trained professionals ensure fast on-site response in critical emergencies. Always just one call away!
+      </p>
+      <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        Book Now
+        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Third Card -->
+  <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-auto">
+    <a href="#">
+      <img class="rounded-t-lg w-full h-48 object-cover" src="./img/ambulance-card3.jpg" alt="Ambulance Service" />
+    </a>
+    <div class="p-5">
+      <a href="#">
+        <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          Fully Equipped Ambulances
+        </h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        GPS-enabled ambulances with oxygen, stretcher & advanced life support. Trusted partner in emergencies.
+      </p>
+      <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        Book Now
+        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- End Services -->
+
+<!-- Start About Us -->
+<section id="about" class="bg-white dark:bg-gray-900 py-20 px-4 sm:px-6 lg:px-20">
+  <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Image Side -->
+    <div>
+      <img src="./img/about-ambulance.jpeg" alt="About Our Ambulance Service" class="w-full h-auto rounded-lg shadow-lg object-cover">
+    </div>
+
+    <!-- Text Side -->
+    <div>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white mb-6">
+        About Our Ambulance Service
+      </h2>
+      <p class="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-4">
+        We are a team of certified emergency responders dedicated to saving lives. With a fleet of fully equipped ambulances and trained medical professionals, we ensure fast, reliable care whenever you need it most.
+      </p>
+      <p class="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-6">
+        Whether it's an accident, medical emergency, or critical patient transfer, our 24/7 support system ensures no call goes unanswered. We serve with speed, compassion, and professionalism.
+      </p>
+      <a href="#services" class="inline-flex items-center px-5 py-3 text-base font-medium text-white bg-red-600 rounded-lg hover:bg-red-700 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900">
+        Explore Services
+        <svg class="w-4 h-4 ml-2 rtl:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- End About Us -->
+
+<!-- Start Testimonials -->
+<section class="bg-gray-100 dark:bg-gray-900 py-16 px-4">
+  <div class="max-w-screen-xl mx-auto text-center">
+    <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-10">What Our Patients Say</h2>
+
+    <!-- Slider container -->
+    <div class="overflow-hidden relative h-[270px]">
+      <!-- Sliding wrapper -->
+      <div class="flex animate-slide-x space-x-10 w-[300%]">
+
+        <!-- Testimonial 1 -->
+        <div class="w-full flex-shrink-0 bg-white dark:bg-gray-800 p-6 md:p-8 rounded-xl shadow-md text-left">
+          <p class="text-base md:text-lg italic text-gray-700 dark:text-gray-300">
+            "When my grandmother had a sudden cardiac arrest, their ambulance arrived within 8 minutes.
+            <br> The team was calm, professional, and had life support ready. I genuinely believe they saved her life."
+          </p>
+          <div class="mt-4 font-semibold text-red-600">– Aarti Sharma, Vapi</div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="w-full flex-shrink-0 bg-white dark:bg-gray-800 p-6 md:p-8 rounded-xl shadow-md text-left">
+          <p class="text-base md:text-lg italic text-gray-700 dark:text-gray-300">
+            "We booked the ambulance through their helpline during a late-night road accident.
+            <br> The staff handled the patient carefully and coordinated with the hospital before we even reached. Total life-savers!"
+          </p>
+          <div class="mt-4 font-semibold text-red-600">– Rajesh Mehta, Chharwada</div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="w-full flex-shrink-0 bg-white dark:bg-gray-800 p-6 md:p-8 rounded-xl shadow-md text-left">
+          <p class="text-base md:text-lg italic  text-gray-700 dark:text-gray-300">
+            "What stood out to me was how clean the ambulance was and how well-equipped the team was.
+            <br> They even kept updating us while transporting my uncle. Professionalism at its best!"
+          </p>
+          <div class="mt-4 font-semibold text-red-600">– Neha Saini, Gujarat</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+@keyframes slideX {
+  0%, 16.66% { transform: translateX(0%); }
+  33.33%, 49.99% { transform: translateX(-100%); }
+  66.66%, 83.32% { transform: translateX(-200%); }
+  100% { transform: translateX(0%); }
+}
+
+.animate-slide-x {
+  animation: slideX 15s infinite ease-in-out;
+}
+</style>
+
+
+
+<!-- End Testimonials -->
+
+
+
+<!-- Start Contact -->
+
+<section id="contact" class="bg-gray-100 dark:bg-gray-900 py-16 px-4 lg:px-20">
+  <div class="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+    <!-- Contact Form -->
+    <div class="bg-white dark:bg-gray-800 shadow-xl rounded-xl p-6 md:p-8">
+      <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-6">Get in Touch</h2>
+      <form action="#" method="POST" class="space-y-5">
+        <div>
+          <label class="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">Name*</label>
+          <input type="text" name="name" required class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-500 dark:bg-gray-700 dark:text-white dark:border-gray-600" />
+        </div>
+
+        <div>
+          <label class="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">Call*</label>
+          <input type="tel" name="phone" required pattern="[6-9][0-9]{9}" class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-500 dark:bg-gray-700 dark:text-white dark:border-gray-600" />
+        </div>
+
+        <div>
+          <label class="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">Email Address*</label>
+          <input type="email" name="email" required class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-500 dark:bg-gray-700 dark:text-white dark:border-gray-600" />
+        </div>
+
+        <div>
+          <label class="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">Message*</label>
+          <textarea name="message" required rows="4" class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-500 dark:bg-gray-700 dark:text-white dark:border-gray-600"></textarea>
+        </div>
+
+        <button type="submit" class="w-full bg-red-600 text-white py-3 rounded-lg font-semibold hover:bg-red-700 transition">Send Message</button>
+      </form>
+    </div>
+
+
+
+    <!-- Contact Info -->
+    <div class="flex flex-col justify-center text-gray-800 dark:text-white space-y-6">
+      <h2 class="text-2xl md:text-3xl font-bold mb-2">GOOD HEALTH AMBULANCE</h2>
+      <p class="text-base md:text-lg">All India Ambulance Services</p>
+
+      <div class="space-y-2">
+        <p><span class="font-semibold">Phone:</span> <a href="tel:+917979960838" class="text-red-600 hover:underline">+91 7979960838</a></p>
+        <p><span class="font-semibold">Email:</span> <a href="mailto:kumarshivamraj143@gmail.com" class="text-red-600 hover:underline">kumarshivamraj143@gmail.com</a></p>
+        <p><span class="font-semibold">Address:</span> Shop No 7, Ayodhya Park, Chharwada Ramjanwadi, Vapi – 396191</p>
+      </div>
+
+      <div class="pt-4">
+        <h3 class="font-semibold text-lg">Availability:</h3>
+        <p class="text-red-600">24/7 Emergency Services</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- End Contact -->
+
+<!-- Start Footer -->
+ 
+
+<footer class="bg-white rounded-lg shadow-sm dark:bg-gray-900 m-4">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                <span class="self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white">GOOD HEALTH AMBULANCE</span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="about.html" class="hover:underline me-4 md:me-6">About</a>
+                </li>
+                <li>
+                    <a href="service.html" class="hover:underline me-4 md:me-6">Services</a>
+                </li>
+                <li>
+                    <a href="#contact" class="hover:underline me-4 md:me-6">Contact</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 - <span id="currentYear" ></span> <a href="/" class="hover:underline">GOOD HEALTH AMBULANCE</a>. All Rights Reserved.</span>
+    </div>
+</footer>
+
+<!-- End Footer -->
+</body>
+<script>
+  document.getElementById("currentYear").textContent = new Date().getFullYear();
+</script>
+</html>

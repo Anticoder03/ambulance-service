@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Good Health Ambulance</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white">
+    <!-- Start Header -->
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 pb-5">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <span class="self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white">GOOD HEALTH AMBULANCE</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-6 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <!-- Home -->
+                    <li>
+                        <a href="/" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+                    </li>
+                    <!-- About -->
+                    <li>
+                        <a href="about.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                    </li>
+                    <!-- Services -->
+                    <li>
+                        <a href="service.html" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Services</a>
+                    </li>
+                    <!-- Book Now CTA Button -->
+                    <li>
+                        <a href="index.html#book-now" class="block md:inline-flex items-center justify-center py-2 px-4 mt-2 md:mt-0 text-white font-semibold rounded-md bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-300 dark:focus:ring-red-800 transition-all duration-300 shadow-sm">
+                            🚑 Book Now
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Header -->
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-red-600 to-red-800 text-white py-20 px-4">
+        <div class="max-w-screen-xl mx-auto text-center">
+            <h1 class="text-3xl md:text-5xl font-bold mb-6 text-blue-600 dark:text-white">Our Emergency Services</h1>
+            <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto dark:text-gray-300 text-blue-500">
+                Comprehensive ambulance services available 24/7 across India. From emergency response to patient transfers, we're here when you need us most.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#emergency-services" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-500 dark:text-white transition-all duration-300">
+                    Emergency Services
+                </a>
+                <a href="#transfer-services" class="border-2 dark:text-white border-white text-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-600 hover:text-white transition-all duration-300">
+                    Patient Transfers
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Services Section -->
+    <section id="emergency-services" class="py-16 px-4">
+        <div class="max-w-screen-xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-white mb-12">Emergency Services</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Cardiac Ambulance -->
+                <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border-t-4 border-red-600">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-heartbeat text-red-600 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white">Cardiac Ambulance</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                        Fully equipped with ICU setup, heart monitors, defibrillators, and advanced life support systems for cardiac emergencies.
+                    </p>
+                    <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-2">
+                        <li>• ECG Monitoring</li>
+                        <li>• Defibrillator</li>
+                        <li>• Cardiac Medications</li>
+                        <li>• Trained Cardiac Team</li>
+                    </ul>
+                    <a href="tel:+917979960838" class="inline-block mt-4 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition-all duration-300">
+                        Call Now
+                    </a>
+                </div>
+
+                <!-- Trauma Ambulance -->
+                <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border-t-4 border-blue-600">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-user-injured text-blue-600 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white">Trauma Ambulance</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                        Specialized for accident victims and trauma cases with advanced medical equipment and trained paramedics.
+                    </p>
+                    <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-2">
+                        <li>• Trauma Equipment</li>
+                        <li>• Spinal Board</li>
+                        <li>• Emergency Medications</li>
+                        <li>• Trauma Team</li>
+                    </ul>
+                    <a href="tel:+917979960838" class="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-all duration-300">
+                        Call Now
+                    </a>
+                </div>
+
+                <!-- Neonatal Ambulance -->
+                <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border-t-4 border-pink-600">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-baby text-pink-600 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white">Neonatal Ambulance</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                        Specialized care for newborns and premature babies with incubators and neonatal intensive care equipment.
+                    </p>
+                    <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-2">
+                        <li>• Neonatal Incubator</li>
+                        <li>• Baby Monitoring</li>
+                        <li>• Specialized Care</li>
+                        <li>• Pediatric Team</li>
+                    </ul>
+                    <a href="tel:+917979960838" class="inline-block mt-4 bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition-all duration-300">
+                        Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transfer Services Section -->
+    <section id="transfer-services" class="py-16 px-4 bg-gray-100 dark:bg-gray-800">
+        <div class="max-w-screen-xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-white mb-12">Patient Transfer Services</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Hospital Transfer -->
+                <div class="bg-white dark:bg-gray-700 rounded-xl shadow-lg p-6 border-t-4 border-green-600">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-hospital text-green-600 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white">Hospital Transfer</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                        Safe and comfortable transfer between hospitals with continuous medical monitoring and care.
+                    </p>
+                    <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-2">
+                        <li>• Medical Escort</li>
+                        <li>• Continuous Monitoring</li>
+                        <li>• Hospital Coordination</li>
+                        <li>• Documentation</li>
+                    </ul>
+                    <a href="tel:+917979960838" class="inline-block mt-4 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-all duration-300">
+                        Book Transfer
+                    </a>
+                </div>
+
+                <!-- Home Transfer -->
+                <div class="bg-white dark:bg-gray-700 rounded-xl shadow-lg p-6 border-t-4 border-purple-600">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-home text-purple-600 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white">Home Transfer</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                        Comfortable transfer from hospital to home with proper medical support and family assistance.
+                    </p>
+                    <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-2">
+                        <li>• Family Support</li>
+                        <li>• Medical Guidance</li>
+                        <li>• Comfort Care</li>
+                        <li>• Follow-up</li>
+                    </ul>
+                    <a href="tel:+917979960838" class="inline-block mt-4 bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-all duration-300">
+                        Book Transfer
+                    </a>
+                </div>
+
+                <!-- Long Distance Transfer -->
+                <div class="bg-white dark:bg-gray-700 rounded-xl shadow-lg p-6 border-t-4 border-orange-600">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-route text-orange-600 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-bold text-gray-800 dark:text-white">Long Distance Transfer</h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-300 mb-4">
+                        Inter-city and long-distance patient transfers with advanced life support and comfort amenities.
+                    </p>
+                    <ul class="text-sm text-gray-600 dark:text-gray-300 space-y-2">
+                        <li>• GPS Tracking</li>
+                        <li>• Rest Stops</li>
+                        <li>• Family Accommodation</li>
+                        <li>• 24/7 Support</li>
+                    </ul>
+                    <a href="tel:+917979960838" class="inline-block mt-4 bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition-all duration-300">
+                        Book Transfer
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment & Features -->
+    <section class="py-16 px-4">
+        <div class="max-w-screen-xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-white mb-12">Our Equipment & Features</h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="text-center">
+                    <i class="fas fa-lungs text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="font-semibold text-gray-800 dark:text-white">Oxygen Supply</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300">Portable cylinders</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-procedures text-4xl text-green-600 mb-4"></i>
+                    <h3 class="font-semibold text-gray-800 dark:text-white">Ventilator</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300">Life support system</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-snowflake text-4xl text-cyan-600 mb-4"></i>
+                    <h3 class="font-semibold text-gray-800 dark:text-white">AC System</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300">Climate controlled</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-user-md text-4xl text-purple-600 mb-4"></i>
+                    <h3 class="font-semibold text-gray-800 dark:text-white">Medical Team</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300">Trained professionals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="bg-red-600 text-white py-16 px-4">
+        <div class="max-w-screen-xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Need Emergency Ambulance?</h2>
+            <p class="text-lg md:text-xl mb-8">Call us immediately for 24/7 emergency response</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tel:+917979960838" class="bg-white text-red-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all duration-300">
+                    📞 +91 7979960838
+                </a>
+                <a href="mailto:kumarshivamraj143@gmail.com" class="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-red-600 transition-all duration-300">
+                    📧 Email Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Footer -->
+    <footer class="bg-white rounded-lg shadow-sm dark:bg-gray-900 m-4">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <span class="self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white">GOOD HEALTH AMBULANCE</span>
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="about.html" class="hover:underline me-4 md:me-6">About</a>
+                    </li>
+                    <li>
+                        <a href="service.html" class="hover:underline me-4 md:me-6">Services</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="hover:underline me-4 md:me-6">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 - <span id="currentYear"></span> <a href="/" class="hover:underline">GOOD HEALTH AMBULANCE</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+    <!-- End Footer -->
+</body>
+<script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+</script>
+</html> 
