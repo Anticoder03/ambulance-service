@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
       <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
       <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
@@ -30,10 +31,10 @@
   
 <!-- Start Header -->
 
-<nav class="bg-white border-gray-200 dark:bg-gray-900 pb-5">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+<nav class="bg-white border-gray-200 dark:bg-gray-900 ">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto pt-4 pb-3">
     <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <span class="self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white">GOOD HEALTH AMBULANCE</span>
+        <img style="height: 5rem !important;"   src="./img/logo.png" alt="">
     </a>
     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
@@ -92,7 +93,7 @@
 
   <!-- Start Hero -->
    
-<section class="w-full min-h-screen bg-center bg-cover bg-no-repeat bg-[url('./img/hero-bg.jpg')] bg-gray-700 bg-blend-multiply">
+<section class="w-full min-h-screen bg-center bg-cover bg-no-repeat bg-[url('./img/bg-img.jpg')] bg-gray-700 bg-blend-multiply">
   <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 flex flex-col justify-center items-center h-full">
     <h1 class="mb-4 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight leading-none text-white">
       24/7 Emergency Ambulance Services
@@ -101,7 +102,7 @@
       Rapid response. Trained professionals. Advanced life support. Our ambulances are ready round-the-clock to serve you when every second counts.
     </p>
     <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-      <a href="#book-now" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-red-700 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900 transition-all duration-300">
+      <a href="tel:+917979960838" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-red-700 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900 transition-all duration-300">
         Call Now
         <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
           viewBox="0 0 14 10">
@@ -138,7 +139,7 @@
             </svg>
         </div>
         <input type="text" id="phone-input" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" 
-" placeholder="123-456-7890" pattern="[6-9][0-9]{9}"
+"  pattern="[6-9][0-9]{9}"
  required />
     </div>
     <div class="my-3">
@@ -245,7 +246,8 @@
 
 <!-- Start About Us -->
 <section id="about" class="bg-white dark:bg-gray-900 py-20 px-4 sm:px-6 lg:px-20">
-  <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+  <!-- First -->
+  <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
     
     <!-- Image Side -->
     <div>
@@ -272,6 +274,36 @@
     </div>
 
   </div>
+
+  <!-- Second -->
+
+   <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+  <!-- Text Side (Now on the left) -->
+  <div>
+    <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white mb-6">
+      About Our Bed Service
+    </h2>
+    <p class="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-4">
+      We provide high-quality hospital beds tailored to patients’ needs, whether it's for home care or medical facilities. Our beds are sanitized, comfortable, and equipped with essential features for safety and convenience.
+    </p>
+    <p class="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-6">
+      From adjustable functions to emergency-ready designs, our 24/7 support ensures a hassle-free rental or purchase experience. Trust us for a smoother, more restful recovery journey.
+    </p>
+    <a href="#services" class="inline-flex items-center px-5 py-3 text-base font-medium text-white bg-red-600 rounded-lg hover:bg-red-700 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900">
+      Explore Services
+      <svg class="w-4 h-4 ml-2 rtl:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+      </svg>
+    </a>
+  </div>
+
+  <!-- Image Side (Now on the right) -->
+  <div>
+    <img src="./img/bed.jpg" alt="About Our Bed Service" class="w-full h-auto rounded-lg shadow-lg object-cover">
+  </div>
+</div>
+
+
 </section>
 
 
@@ -282,13 +314,12 @@
   <div class="max-w-screen-xl mx-auto text-center">
     <h2 class="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-10">What Our Patients Say</h2>
 
-    <!-- Slider container -->
-    <div class="overflow-hidden relative h-[270px]">
-      <!-- Sliding wrapper -->
-      <div class="flex animate-slide-x space-x-10 w-[300%]">
+    <!-- Wrapper with horizontal scroll on small screens -->
+    <div class="overflow-x-auto">
+      <div class="flex flex-col md:flex-row gap-6 md:gap-10 justify-center items-stretch min-w-full">
 
         <!-- Testimonial 1 -->
-        <div class="w-full flex-shrink-0 bg-white dark:bg-gray-800 p-6 md:p-8 rounded-xl shadow-md text-left">
+        <div class="min-w-[280px] max-w-md bg-white dark:bg-gray-800 p-6 md:p-8 rounded-xl shadow-md text-left">
           <p class="text-base md:text-lg italic text-gray-700 dark:text-gray-300">
             "When my grandmother had a sudden cardiac arrest, their ambulance arrived within 8 minutes.
             <br> The team was calm, professional, and had life support ready. I genuinely believe they saved her life."
@@ -297,7 +328,7 @@
         </div>
 
         <!-- Testimonial 2 -->
-        <div class="w-full flex-shrink-0 bg-white dark:bg-gray-800 p-6 md:p-8 rounded-xl shadow-md text-left">
+        <div class="min-w-[280px] max-w-md bg-white dark:bg-gray-800 p-6 md:p-8 rounded-xl shadow-md text-left">
           <p class="text-base md:text-lg italic text-gray-700 dark:text-gray-300">
             "We booked the ambulance through their helpline during a late-night road accident.
             <br> The staff handled the patient carefully and coordinated with the hospital before we even reached. Total life-savers!"
@@ -306,7 +337,7 @@
         </div>
 
         <!-- Testimonial 3 -->
-        <div class="w-full flex-shrink-0 bg-white dark:bg-gray-800 p-6 md:p-8 rounded-xl shadow-md text-left">
+        <div class="min-w-[280px] max-w-md bg-white dark:bg-gray-800 p-6 md:p-8 rounded-xl shadow-md text-left">
           <p class="text-base md:text-lg italic  text-gray-700 dark:text-gray-300">
             "What stood out to me was how clean the ambulance was and how well-equipped the team was.
             <br> They even kept updating us while transporting my uncle. Professionalism at its best!"
@@ -318,6 +349,7 @@
     </div>
   </div>
 </section>
+
 
 <style>
 @keyframes slideX {
@@ -375,7 +407,7 @@
 
     <!-- Contact Info -->
     <div class="flex flex-col justify-center text-gray-800 dark:text-white space-y-6">
-      <h2 class="text-2xl md:text-3xl font-bold mb-2">GOOD HEALTH AMBULANCE</h2>
+      <h2 class="text-2xl md:text-3xl font-bold mb-2 text-red-600">GOOD HEALTH AMBULANCE</h2>
       <p class="text-base md:text-lg">All India Ambulance Services</p>
 
       <div class="space-y-2">
@@ -403,7 +435,7 @@
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                <span class="self-center text-xl md:text-2xl font-semibold whitespace-nowrap dark:text-white">GOOD HEALTH AMBULANCE</span>
+                <span class="self-center text-xl md:text-2xl font-semibold whitespace-nowrap text-red-600">GOOD HEALTH AMBULANCE</span>
             </a>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
@@ -421,7 +453,7 @@
             </ul>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 - <span id="currentYear" ></span> <a href="/" class="hover:underline">GOOD HEALTH AMBULANCE</a>. All Rights Reserved.</span>
+         <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 - <span id="currentYear"></span> <a href="/" class="hover:underline text-red-600">GOOD HEALTH AMBULANCE</a>. All Rights Reserved <a href="https://techfellows.tech/" class="hover:underline text-blue-500 font-bold" target="_blank">techfellow`s</a> & <a href="https://github.com/Anticoder03" target="_blank" class="hover:underline text-blue-500 font-bold">Anticoder03</a>.</span>
     </div>
 </footer>
 
